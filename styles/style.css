@@ -121,3 +121,67 @@
   margin-top: 46px;
   margin-bottom: 166px;
 }
+
+.services{
+  display: flex;
+  justify-content: space-around;
+  padding: 85px 0px;
+  background-color: #0B7572;
+}
+
+.services h3{
+  color: #FFFFFF;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 60px;
+  margin-top: -630px;
+}
+
+
+@media screen and (max-width: 900px) {
+  body{
+    width: 900px;
+  }
+  .desktop{
+    display: block;
+  }
+
+  .tablet{
+    display: none;
+  }
+
+  .phone{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  body{
+    width: 500px;
+    text-align: center;
+  }
+  .desktop{
+    display: none;
+  }
+
+  .phone{
+    display: none;
+  }
+  .tablet{
+    display: block;
+  }
+}
+
+@media screen and(max-width: 500px) {
+  .desktop{
+    display: none;
+  }
+
+  .tablet{
+    display: none;
+  }
+  .phone{
+    display: block;
+  }
+}
